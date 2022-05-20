@@ -15,7 +15,7 @@ code {
 .headerHome {
   display: flex;
   justify-content: space-around;
-  background-color: rgb(55, 126, 71);
+  background-color: rgb(43, 63, 248);
   align-items: center;
   gap: 10px;
 }
@@ -59,4 +59,38 @@ code {
   border-radius: 7px;
   padding: 0 5px;
 
+}
+
+.div_contador {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 40vh;
+  font-family: cursive;
+}
+
+.button_operations {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
+}
+
+.add {
+  border: 0px transparent;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.add:hover {
+  font-size: 36px;
 }
