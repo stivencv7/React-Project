@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Content = ({ only }) => {
+export const Content = ({ diseño, text }) => {
     return (
-        <p id={only}></p>
+        <p className={diseño} id='contenido'>{text}</p>
     )
 }
