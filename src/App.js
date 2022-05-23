@@ -10,7 +10,7 @@ import { Home } from "./components/Pages/Home/Home";
 
 function App() {
   return (
-    <div className="App">
+    <div id="color" className="App">
       <HederHome />
       <Routes>
         <Route path="/" element={<Home />} />

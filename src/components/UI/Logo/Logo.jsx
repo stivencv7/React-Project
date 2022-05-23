@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../../../images/logo_empresa.png'
-export const Logo = () => {
+import logo from '../../../images/alu.jpg'
+export const Logo = ({id}) => {
     return (
-        <img className='logo' src={logo} alt="logo" />
+        <img id={id} className='logo' src={logo} alt="logo" />
     )
 }

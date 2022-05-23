@@ -25,9 +25,9 @@ code {
 }
 
 .logo {
-
   width: 28vh;
   border-radius: 4px;
+  filter: grayscale(6);
 }
 
 .ancla {
@@ -82,5 +82,14 @@ code {
   text-shadow: 0px 0px 10px black;
   font-family: cursive;
   font-size: 80px;
+
+}
+
+.dar-mode{
+  background-color: black;
+  color :red;
+}
+.light-mode{
+  background-color: white;
 
 }

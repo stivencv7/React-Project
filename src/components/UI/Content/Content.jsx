@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Content = ({ diseño, text }) => {
+export const Content = ({ diseño, text,id }) => {
     return (
-        <p className={diseño} id='contenido'>{text}</p>
+        <p className={diseño} id={id}>{text}</p>
     )
 }
