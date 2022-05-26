@@ -13,11 +13,10 @@ import { Logo } from "../Logo/Logo";
 export const CounterSection = () => {
     const [counter, setCounter] = useState(0)
     
-    
     const increase = () => {
         // Counter state is incremented
         setCounter(counter + 10)
-        
+
     }
     const decrease = () => {
         // Counter state is decremented

@@ -85,11 +85,29 @@ code {
 
 }
 
-.dar-mode{
+.dar-mode {
   background-color: black;
-  color :red;
+  color: red;
 }
-.light-mode{
+
+.light-mode {
   background-color: white;
 
+}
+
+.theme {
+  display: flex;
+  margin-left: 90px;
+  list-style: lower-latin;
+  color: black;
+  gap: 6px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.cont {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: red;
 }
