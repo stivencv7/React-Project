@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { BlackMode } from '../../UI/BlackMode/BlackMode'
-import { Content } from "../../UI/Content/Content"
+//import { Content } from "../../UI/Content/Content"
 
 export const SectionSet_up = () => {
 
@@ -39,7 +39,7 @@ export const SectionSet_up = () => {
             });
         }
 
-    }, [theme])
+    },[theme])
 
     return (
         <nav className='theme'>

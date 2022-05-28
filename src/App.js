@@ -3,10 +3,10 @@ import { HederHome } from "./components/layout/HederHome/HederHome";
 //import { AboutUS } from "./components/Pages/AboutUS/AboutUS";
 //import { ContactUS } from "./components/Pages/ContactUS/ContactUS";
 import { Home } from "./components/Pages/Home/Home";
+import { RickAndMorty } from "./components/Pages/RickAndMorty/RickAndMorty";
 import { Setup } from "./components/Pages/Setup/Setup";
 //import { NotFound } from "./components/Pages/NotFound/NotFound";
 //import React, { useState } from "react";
-
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/configuracion" element={<Setup />} />
+        <Route path="/rickandMorty" element={<RickAndMorty/>} />
       </Routes>
     </div>
   );

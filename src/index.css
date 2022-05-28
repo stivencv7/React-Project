@@ -111,3 +111,14 @@ code {
   display: flex;
   color: red;
 }
+
+.input_rick {
+  text-align: center;
+}
+
+.main {
+  width: 700px;
+  background-color: black;
+
+}
+

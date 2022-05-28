@@ -16,8 +16,8 @@ export const CounterSection = () => {
     const increase = () => {
         // Counter state is incremented
         setCounter(counter + 10)
-
     }
+    
     const decrease = () => {
         // Counter state is decremented
         setCounter(counter - 10)
