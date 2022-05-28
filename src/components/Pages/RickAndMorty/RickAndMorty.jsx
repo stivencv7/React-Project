@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Characters } from '../../layout/Characters/Characters.jsx'
 import { Section_RickAnd_Morty } from '../../layout/Section_RickAnd_Morty/Section_RickAnd_Morty.jsx'
-import { Button } from "../../UI/Button/Button"
+
 
 export const RickAndMorty = () => {
     //  const eleve = document.getElementById("search-for")
@@ -31,7 +31,6 @@ export const RickAndMorty = () => {
     return (
         <div className='input_rick'>
             <Section_RickAnd_Morty id="search-for" action={obtain_value} />
-            <Button text="buscar" />
             <br />
             <Characters cartas={carta} />
         </div >

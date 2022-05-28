@@ -18,10 +18,14 @@ code {
   background-color: rgb(43, 63, 248);
   align-items: center;
   gap: 10px;
+  position: sticky;
+  top: 0px;
+
 }
 
 .headerHome>.NavHome {
   gap: 30px;
+
 }
 
 .logo {
@@ -112,13 +116,63 @@ code {
   color: red;
 }
 
-.input_rick {
+
+
+.conter_car {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.conter_car .car {
   text-align: center;
+  width: 20rem;
+  height: 27rem;
+  box-shadow: 0 0 25px rgb(43, 63, 248);
+  border-radius: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  gap: 8px;
+
 }
 
-.main {
-  width: 700px;
-  background-color: black;
+.img-card {
+  width: 100%;
+  height: 50%;
+  border-radius: 15px 15px 0 0;
+  object-fit: unset;
+}
+
+.name-card {
+  font-size: 3rem;
+  color: rgb(43, 63, 248);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.div_iterator {
+  width: 70%;
+  height: 40px;
+  border-radius: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 0 0 25px rgb(43, 63, 248);
 
 }
 
+
+.conte_input {
+  text-align: center;
+  margin-top: 40px;
+  position: sticky;
+  top: 70px;
+}
