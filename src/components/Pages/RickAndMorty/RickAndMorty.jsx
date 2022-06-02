@@ -4,12 +4,12 @@ import { Section_RickAnd_Morty } from '../../layout/Section_RickAnd_Morty/Sectio
 
 
 export const RickAndMorty = () => {
-    //  const eleve = document.getElementById("search-for")
+   
     const inicialurl = "https://rickandmortyapi.com/api/character"
     const [carta, setCarta] = useState([])
     const seeker = document.getElementById("search-for")
     const url_seeker = "https://rickandmortyapi.com/api/character/?name=";
-    // const car = document.getElementById("car")
+   
 
     const fetchCharacters = (url) => {
         fetch(url)

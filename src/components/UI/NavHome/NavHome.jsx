@@ -43,6 +43,7 @@ export const NavHome = () => {
             <Link className='ancla' to="/UseState">UseState</Link>
             <Link className='ancla' to="/useCustom">UseCustom</Link>
             <Link className='ancla' to="/rickandMorty">RickAndMorty</Link>
+            <Link className='ancla' to="/send">Contact us</Link>
             <Button style="ad" action={handleOn} text={title} />
             <Link className='ancla' to="/configuracion">⚙️</Link>
 
