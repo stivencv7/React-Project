@@ -22,7 +22,7 @@ export const Send = () => {
 
     return (
 
-        <>
+        <div className='c'>
             <h1 className='title-form'>Contact</h1>
 
             <div className='content-father'>
@@ -48,7 +48,8 @@ export const Send = () => {
                 </div>
 
             </div>
-        </>
+
+        </div>
     )
 
 }

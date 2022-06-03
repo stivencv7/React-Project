@@ -1,15 +1,7 @@
-//import React from 'react'
+
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from '../Button/Button'
-
-
-
-//import { Button } from "../Button/Button"
-
-
-//import { Ancla } from '../Ancla/Ancla'
-
 
 export const NavHome = () => {
     const [moderDark, setModerDark] = useState(false)
@@ -21,14 +13,12 @@ export const NavHome = () => {
 
     useEffect(() => {
         if (moderDark) {
-            //document.body.classList.remove("light-mode")
-            //document.body.classList.add('dar-mode')
+            
             document.body.style.backgroundColor = "black"
 
             setTitle('Claro')
         } else {
-            //document.body.classList.remove("dar-mode")
-            //document.body.classList.add('light-mode')
+            
             document.body.style.backgroundColor = "white"
             setTitle('Oscuro')
         }
@@ -44,6 +34,7 @@ export const NavHome = () => {
             <Link className='ancla' to="/useCustom">UseCustom</Link>
             <Link className='ancla' to="/rickandMorty">RickAndMorty</Link>
             <Link className='ancla' to="/send">Contact us</Link>
+            <Link className='ancla' to="/gifTenor">Gif</Link>
             <Button style="ad" action={handleOn} text={title} />
             <Link className='ancla' to="/configuracion">⚙️</Link>
 
